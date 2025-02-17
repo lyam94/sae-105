@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="icon" type="images/png" href="img/lpc noir.png">
+
+
+  <title>ZIK legend</title>
+</head>
+<br><br><br><br><br>
+<header>
+  <h1 class="titre_site"> ZIK Legend </h1>
+</header>
+
+
+<body>
+  <br><br><br><br><br><br><br><br><br><br>
+  
+<!-- introduction au site-->
+  <h2 class="accueille">Bienvenue sur ZIK LEGEND, la maison du chant et de la culture musicale !</h2>
+  <P>Plongez au cœur de la chanson avec un focus exclusif sur 6 talents incontournables : Luv Resval, Nepal, Kyana,
+    YNSS,Angèle et Styleto. Que vous soyez un fan de longue date ou un curieux en quête de découvertes, mon site est
+    dédiée à célébrer leur créativité, leur univers unique et leur impact sur la scène musicale.</P>
+
+  <p>Retrouvez ici mon choix de leur meilleure musique. Je mets également en lumière les valeurs et les
+    inspirations qui les portent, pour une immersion totale dans leur art.
+  </p>
+  <p>ZIK legende, c’est plus qu’un site : c’est un espace où la musique résonne, où les cultures s’entrelacent, et où
+    les voix des artistes trouvent écho.
+  </p>
+  <h2>Rejoignez la vibe et explorez le son, l'âme et le message.
+  </h2>
+
+<br><br><br><br><br><br><br>
+
+  <div id="cover-container"></div>
+  <!-- script pour les artistes et le bloc principal-->
+  <script src="script2.js"></script>
+
+  <br><br><br><br><br><br>
+
+
+  <!-- bloc formulaire-->
+  <h1>Proposer un album ou un morceau</h1>
+  <div class="formulaire">
+    <form id="contributionForm">
+      <label for="titre">Titre de la musique / album :</label>
+      <input type="text" id="title" name="titre" required>
+      <br>
+      <label for="artist">Artiste :</label>
+      <input type="text" id="artist" name="artist" required>
+      <br>
+      <label for="album">Album :</label>
+      <input type="text" id="album" name="album" required>
+      <br>
+      <label for="audioURL">URL de l'audio (15 secondes max) :</label>
+      <input type="url" id="audioURL" name="audioURL" required>
+      <br>
+      <button type="submit">Soumettre</button>
+    </form>
+
+
+
+
+<!-- previsualisation du forulaire-->
+    <h2>Votre proposition :</h2>
+    <div id="preview">
+      <p id="previsualisation_titre"></p>
+      <p id="previsualisation_artiste"></p>
+      <p id="previsualisation_album"></p>
+      <audio id="audioPreview" controls></audio>
+    </div>
+    <h2 id="contributionForm">Ajouter la cover de votre musique / album</h2>
+    <input type="file" name="fileUpload" id="fileUpload">
+    <div id="uploadImage"></div>
+    <!--script pour le formulaire d'upload d'images par l'utilisateur-->
+    <script src="script_ajout.js" class="img_ajout"></script>
+
+<!--pied de page avec les droits  de creations-->
+    <footer>
+      <p>ⓒTous droits reservé</p>
+    
+      <p>Musiques : RIP🙏 LUV RESVAL, RIP 🙏 NEPAL, STYLETO ✨, KYANA ✨ ANGELE✨ YNSS ✨</p>
+      <p>6.9.6 <br> 444nuits</p>
+      <p>Crédits : LUV RESVAL : © 2021 AWA GANG | KYANA : © 2023 KYANA GHAFFARZADEH | NEPAL : ⓒ 2017 444nuits | STYLETO
+        : ⓒ 2024 FLAMME / Sony Music Entertainment France SAS | YNSS : © 2023 YNSS | ANGELE : ⓒ 2019 Angèle VL Records
+      <p>Mentions légales : Lyam Passé-Coutrin  </p>
+      <br><img src="img/lpc blanc.png" alt="pirate LPC vision logo" width="90">
+    </footer>
+  </div>
+</body>
+
+</html>

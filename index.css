@@ -1,0 +1,113 @@
+/*codé en francais et en anglais */
+
+header{
+    
+    font-size: 70px;
+    text-align: center;
+    border-radius: 0px 0px 30px 30px;
+    
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+    margin: 0px;
+    font-size: 70px;
+}
+h2{
+    color: aliceblue;
+}
+.titre_site{
+    text-align: center;
+    color: rgb(48, 107, 235);
+    margin: 0px;
+    font-family: "Anton", serif;
+    font-size: 150px;
+}
+body{
+    background-image:url(img/OIP.jpg);
+    margin: 0px;
+    margin-top: 0px;
+    text-align: center;
+    
+   
+}
+footer{
+    background-image: url(img/fondfooter.jpg);
+    font-size: large;
+}
+.accueille{
+    font-size: xx-large;
+}
+.formulaire{
+    font-size: x-large;
+}
+
+nav{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(226, 226, 226);
+    size: 20px;
+}
+
+p{
+    color: aliceblue;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: larger;
+}
+.desc_artiste{
+    font-size: 28px;
+}
+
+
+.etitre{
+    color: aliceblue;
+    font-size: 100px;
+    
+}
+.BLOC{
+    position: relative;
+}
+
+#result{
+    color: aliceblue;
+}
+#preview{
+    color: aliceblue;
+}
+#contributionForm{
+    color: aliceblue;
+}
+h3{
+    color: aliceblue;
+    font-size: x-large;
+}
+.div{
+    border-color: 3px solid blueviolet;
+}
+#cover-container{
+text-align: center;
+}
+.titre_site
+
+.titre_sons{
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.imgun {
+    width: 500px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .imgun:hover {
+    transform: scale(1.05); 
+  }
+  .imgti {
+    transition: transform 0.3s ease; 
+  }
+  
+  .imgti:hover {
+    transform: scale(1.1); 
+  }
